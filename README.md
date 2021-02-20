@@ -33,3 +33,4 @@ Renderer（渲染器）—— 负责将变化的组件渲染到页面上
     index >= lastPlacedIndex dom 可复用,不移动位置
     index <  lastPlacedIndex dom 可复用,向后移动位置
     未找到 key, 不可复用, 需要新建
+    第二轮遍历, 新节点遍历完后再遍历老节点, 判断是否存在没有遍历到的老节点, 编辑删除
